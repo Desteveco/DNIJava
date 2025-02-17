@@ -1,4 +1,4 @@
-package edu.estatuas;
+package edu.estatuas.dni;
 
 public class Dni {
 
@@ -89,8 +89,8 @@ public class Dni {
         for (int i = 0; i < cadena.length(); i++) {
             if (!Character.isDigit(cadena.charAt(i))) {
                 return false;
-            } else
-                ;
+            } else;
+
         }
         return true;
     }
@@ -104,7 +104,7 @@ public class Dni {
     }
 
     private Boolean checkLetraValida(){
-        return extraerParteAlfabeticaDni().equals(obtenerLetra())
+        return extraerParteAlfabeticaDni().equals(obtenerLetra());
     }
 
 }

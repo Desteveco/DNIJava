@@ -1,4 +1,4 @@
-package edu.estatuas;
+package edu.estatuas.dni;
 
 class TablaAsignacion {
 
